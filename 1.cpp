@@ -2,6 +2,7 @@
 #include <math.h>
 #include <cmath>
 #include <stdio.h>
+
 using namespace std;
 
 int main()
@@ -26,9 +27,9 @@ int main()
             int z = pow(y, 3) - 2 * pow(x, 2) + 7 * x * y - 4;
             cout << "Значение z равно " << z << endl;
         }
-        
+
     }
-    
+
     system("PAUSE");
     return 0;
 }
