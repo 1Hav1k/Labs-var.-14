@@ -12,7 +12,7 @@ int main()
     cin >> x;
     if (cin.fail()) {
         cout << "Ошибка ввода данных" << endl;
-        system("PAUSE");
+        return 1;
     }
     else
     {
@@ -20,7 +20,7 @@ int main()
         cin >> y;
         if (cin.fail()) {
             cout << "Ошибка ввода данных" << endl;
-            system("PAUSE");
+            return 1;
         }
         else
         {
@@ -29,7 +29,5 @@ int main()
         }
 
     }
-
-    system("PAUSE");
     return 0;
 }

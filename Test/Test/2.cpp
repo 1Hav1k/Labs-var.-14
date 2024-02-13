@@ -12,7 +12,7 @@ int main()
     cin >> x;
     if (cin.fail()) {
         cout << "Ошибка ввода данных" << endl;
-        system("PAUSE");
+        return 1;
     }
     else
     {
@@ -34,6 +34,5 @@ int main()
             cout << "Значение y равно " << y << endl;
         }
     }
-    system("PAUSE");
     return 0;
 }
