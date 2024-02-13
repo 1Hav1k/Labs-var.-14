@@ -12,8 +12,6 @@ int main()
     cin >> x;
     if (cin.fail()) {
         cout << "Ошибка ввода данных" << endl;
-        cin.clear();
-        cin.ignore(32767, '\n');
         return 1;
     }
     else
