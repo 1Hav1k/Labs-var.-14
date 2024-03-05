@@ -16,8 +16,8 @@
             filePath = "lab 2 1.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "main()"
             landmarkType = "9">
             <Actions>
@@ -134,6 +134,51 @@
                   startingLineNumber = "32"
                   endingLineNumber = "32"
                   offsetFromSymbolStart = "444">
+               </Location>
+               <Location
+                  uuid = "2825DDFD-76EF-4E3B-BD53-3271D0B688BD - e3afe7525db87255"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main1()"
+                  moduleName = "Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hav1k/Desktop/Labs-var.-14/Test/lab%202%201.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "440">
+               </Location>
+               <Location
+                  uuid = "2825DDFD-76EF-4E3B-BD53-3271D0B688BD - a5682aba771af93c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hav1k/Desktop/Labs-var.-14/Test/lab%202%201.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "504">
+               </Location>
+               <Location
+                  uuid = "2825DDFD-76EF-4E3B-BD53-3271D0B688BD - a5682aba771af93c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hav1k/Desktop/Labs-var.-14/Test/lab%202%201.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "500">
                </Location>
             </Locations>
          </BreakpointContent>

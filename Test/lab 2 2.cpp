@@ -12,6 +12,8 @@ int main1()
     cin >> n;
     if ((cin.fail()) or (n < 1))
         {
+        cin.clear();
+        cin.ignore(100, '\n');
         cout << "Ошибка ввода данных";
         return 1;
         }

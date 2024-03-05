@@ -8,8 +8,10 @@ int main()
     int N;
     cout << "Введите размер массива: ";
     cin >> N;
-    if (cin.fail())
+    if ((cin.fail()) or (N < 1))
     {
+        cin.clear();
+        cin.ignore(100, '\n');
         cout << "Ошибка ввода данных" << endl;
         return 1;
     }
