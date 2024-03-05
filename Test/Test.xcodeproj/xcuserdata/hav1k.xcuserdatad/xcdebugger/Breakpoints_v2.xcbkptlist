@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C793CF08-E982-4D0B-8B2C-01013DD7C239"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2825DDFD-76EF-4E3B-BD53-3271D0B688BD"
+            shouldBeEnabled = "No"
+            nameForDebugger = "b"
+            condition = "true"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "lab 2 1.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "main()"
+            landmarkType = "9">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.Log">
+                  <ActionContent
+                     message = ""
+                     conveyanceType = "0">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+            <Locations>
+               <Location
+                  uuid = "2825DDFD-76EF-4E3B-BD53-3271D0B688BD - a5682aba771af9a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hav1k/Desktop/Labs-var.-14/Test/lab%202%201.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "436">
+               </Location>
+               <Location
+                  uuid = "2825DDFD-76EF-4E3B-BD53-3271D0B688BD - a5682aba771af942"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hav1k/Desktop/Labs-var.-14/Test/lab%202%201.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "456">
+               </Location>
+               <Location
+                  uuid = "2825DDFD-76EF-4E3B-BD53-3271D0B688BD - a5682aba771af942"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hav1k/Desktop/Labs-var.-14/Test/lab%202%201.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "464">
+               </Location>
+               <Location
+                  uuid = "2825DDFD-76EF-4E3B-BD53-3271D0B688BD - a5682aba771af942"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hav1k/Desktop/Labs-var.-14/Test/lab%202%201.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "476">
+               </Location>
+               <Location
+                  uuid = "2825DDFD-76EF-4E3B-BD53-3271D0B688BD - a5682aba771af942"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hav1k/Desktop/Labs-var.-14/Test/lab%202%201.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "472">
+               </Location>
+               <Location
+                  uuid = "2825DDFD-76EF-4E3B-BD53-3271D0B688BD - a5682aba771af9a3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hav1k/Desktop/Labs-var.-14/Test/lab%202%201.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "444">
+               </Location>
+               <Location
+                  uuid = "2825DDFD-76EF-4E3B-BD53-3271D0B688BD - a5682aba771af942"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hav1k/Desktop/Labs-var.-14/Test/lab%202%201.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "444">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
