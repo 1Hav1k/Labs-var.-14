@@ -3,7 +3,7 @@
 #include <ctime>
 using namespace std;
 
-int main()
+int main1()
 {
     int N;
     cout << "Введите размер массива: ";

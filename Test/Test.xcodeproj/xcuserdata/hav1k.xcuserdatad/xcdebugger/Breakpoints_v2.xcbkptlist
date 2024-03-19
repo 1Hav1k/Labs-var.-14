@@ -180,6 +180,21 @@
                   endingLineNumber = "34"
                   offsetFromSymbolStart = "500">
                </Location>
+               <Location
+                  uuid = "2825DDFD-76EF-4E3B-BD53-3271D0B688BD - e3afe7525db8722b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main1()"
+                  moduleName = "Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hav1k/Desktop/Labs-var.-14/Test/lab%202%201.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "500">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>

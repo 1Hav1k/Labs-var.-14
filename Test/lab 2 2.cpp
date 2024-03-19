@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int main1()
+int main()
 {
     int n;
     cout << "Введите размер массива: ";
@@ -25,7 +25,7 @@ int main1()
         srand(time(NULL));
         for (int i = 0; i < n; i++)
             {
-                *(p + i) = (float)(rand()% 4 - 2) / (float)(rand()% 4 - 2);
+                *(p + i) = (float)(rand()% 4 - 2) / ((float)(rand()% 4 - 2)+0.1);
                 cout << *(p + i) << " ";
             if (*(p + i) < *min_element)
                 {
