@@ -22,7 +22,7 @@ int main1()
         cout << "Исходная строка: " << s << endl;
         for (int i = 0; i < strlen(s); i++)
         {
-            s1[i] = tolower((int) s[i]);
+            s1[i] = tolower(s[i]);
         }
     }
     cout << "Конечная строка: " << s1 << endl;
