@@ -1,8 +1,47 @@
-//
-//  Lab №4 3.cpp
-//  Lab №4
-//
-//  Created by Антон Скляров on 01.04.2024.
-//
+#include <iostream>
+#include <string>
 
-#include <stdio.h>
+using namespace std;
+
+bool Palindrom(string str, int start, int end)
+{
+    if (start >= end)
+    {
+        return true;
+    }
+
+    if (str[start] != str[end])
+    {
+        return false;
+    }
+    return Palindrom(str, start + 1, end - 1);
+}
+
+int main2()
+{
+    string inputStr;
+    for (int i = 0; i < 5; i++)
+    {
+        cout << "Введите строку: ";
+        getline(cin, inputStr);
+        if (cin.fail())
+        {
+            cout << "Ошибка ввода данных." << endl;
+            cin.clear();
+            cin.ignore(123, '\n');
+            return 1;
+        }
+        else
+        {
+            if (Palindrom(inputStr, 0, inputStr.length() - 1))
+            {
+                cout << "Строка является палиндромом." << endl;
+            }
+            else
+            {
+                cout << "Строка не является палиндромом." << endl;
+            }
+        }
+    }
+    return 0;
+}
