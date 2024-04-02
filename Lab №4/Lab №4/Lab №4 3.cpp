@@ -15,7 +15,7 @@ bool Palindrom(string str, int start, int end)
     return Palindrom(str, start + 1, end - 1);
 }
 
-int main()
+int main2()
 {
     string inputStr;
     for (int i = 0; i < 5; i++)
