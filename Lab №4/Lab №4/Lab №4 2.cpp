@@ -63,7 +63,7 @@ int main1()
     }
     else
     {
-        float z = (a / b);
+        float z = (a + b) / (a * b);
         cout << "Значение z равно: " << z << endl;
     }
     return 0;

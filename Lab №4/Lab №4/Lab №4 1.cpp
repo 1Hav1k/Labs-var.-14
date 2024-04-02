@@ -9,14 +9,14 @@ float RingS(float R1, float R2)
     return S;
 }
 
-int main()
+int main2()
 {
     for (int i = 0; i < 3; i++)
     {
         float R1, R2;
         cout << "Введите внешний радиус кольца: ";
         cin >> R1;
-        if (cin.fail())
+        if (cin.fail() or (R1 <= 0))
         {
             cout << "Ошибка ввода данных." << endl;
             cin.clear();
@@ -25,20 +25,20 @@ int main()
         }
         cout << "Введите внутренний радиус кольца: ";
         cin >> R2;
-        if (cin.fail())
+        if (cin.fail() or (R2 <= 0))
         {
             cout << "Ошибка ввода данных." << endl;
             cin.clear();
             cin.ignore(123, '\n');
             return 1;
         }
-        if ((R1 > R2) && (R1 > 0) && (R2 > 0))
+        if (R1 > R2)
         {
-            cout << "Площадь кольца равна " << RingS(R1, R2) << endl;
+            cout << "Площадь " << i + 1 << " кольца равна " << RingS(R1, R2) << endl;
         }
         else
         {
-            cout << "Внешний радиус должен быть больше внутреннего. Также, значения должны быть больше нуля." << endl;
+            cout << "Внешний радиус должен быть больше внутреннего." << endl;
             return 1;
         }
     }

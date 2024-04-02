@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 
 using namespace std;
 
@@ -9,7 +8,6 @@ bool Palindrom(string str, int start, int end)
     {
         return true;
     }
-
     if (str[start] != str[end])
     {
         return false;
@@ -17,7 +15,7 @@ bool Palindrom(string str, int start, int end)
     return Palindrom(str, start + 1, end - 1);
 }
 
-int main2()
+int main()
 {
     string inputStr;
     for (int i = 0; i < 5; i++)
