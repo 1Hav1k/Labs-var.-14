@@ -9,7 +9,6 @@ string file2 = "file2.txt";
 
 void proverka(ifstream &in1, ifstream &in2);
 
-void closefiles(ifstream &in1, ifstream &in2);
+int getFileSize(ifstream& file);
 
-void file1to2(string file2, char* buffer1, int size1);
-void file2to1(string file1, char* buffer2, int size2);
+void exchangeContents(string& filename1, string& filename2);
