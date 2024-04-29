@@ -12,34 +12,20 @@ int FindMin(int arr[], int size)
     return min;
 }
 
-int main1()
+int main2()
 {
     const int sizeX = 15;
     const int sizeY = 20;
     int X[sizeX], Y[sizeY];
-    cout << "Введите элементы массива X: ";
+    //cout << "Введите элементы массива X: ";
     for (int i = 0; i < sizeX; i++)
     {
-        cin >> X[i];
-        if (cin.fail())
-        {
-            cout << "Ошибка ввода данных." << endl;
-            cin.clear();
-            cin.ignore(123, '\n');
-            return 1;
-        }
+        X[i] = rand() % 20 - 10;
     }
     cout << "Введите элементы массива Y: ";
     for (int i = 0; i < 20; i++)
     {
-        cin >> Y[i];
-        if (cin.fail())
-        {
-            cout << "Ошибка ввода данных." << endl;
-            cin.clear();
-            cin.ignore(123, '\n');
-            return 1;
-        }
+        Y[i] = rand() % 20 - 10;
     }
     cout << "Элементы массива X: ";
     for (int i = 0; i < 15; i++)

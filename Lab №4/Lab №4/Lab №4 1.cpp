@@ -9,7 +9,7 @@ float RingS(float R1, float R2)
     return S;
 }
 
-int main()
+int main1()
 {
     for (int i = 0; i < 3; i++)
     {
