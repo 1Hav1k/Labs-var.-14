@@ -9,7 +9,9 @@ int main()
     PairProcessing::createRandomTable(numPairs, inputFile);
     PairProcessing::processPairs(inputFile, outputFile);
 
+    cout << "Данные файла с случайными парами: ";
     PairProcessing::printFileContents(inputFile);
+    cout << "Данные файла с обработанными парами:" << endl;
     PairProcessing::printFileContents(outputFile);
 
     return 0;

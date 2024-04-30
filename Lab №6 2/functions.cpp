@@ -76,13 +76,15 @@ void PairProcessing::processPairs(const string& inputFilename, const string& out
 
 void PairProcessing::printFileContents(const string& filename) {
     ifstream file(filename);
-    if (!file.is_open()) {
+    if (!file.is_open())
+    {
         cerr << "Error opening file." << endl;
         return;
     }
 
     string line;
-    while (getline(file, line)) {
+    while (getline(file, line))
+    {
         cout << line << endl;
     }
 

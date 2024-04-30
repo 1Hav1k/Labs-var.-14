@@ -2,10 +2,16 @@
 
 int main()
 {
-    string filename1 = "file1.txt";
-    string filename2 = "file2.txt";
-    
-    exchangeContents(filename1, filename2);
+    string docum1 = "file1.txt";
+    string docum2 = "file2.txt";
+
+    exchangeContents(docum1, docum2);
+
+    cout << "Содержимое " << docum1 << " файла:" << endl;
+    printFileContents(docum1);
+
+    cout << "Содержимое " << docum2 << " файла:" << endl;
+    printFileContents(docum2);
 
     return 0;
 }
