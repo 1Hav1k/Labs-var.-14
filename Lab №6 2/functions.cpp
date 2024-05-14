@@ -35,7 +35,7 @@ void PairProcessing::createRandomTable(int numPair, const string& filename)
     {
         int n = rand() % 10 + 1;
         char c = 'a' + rand() % 26;
-        file << n << " * " << c << ";";
+        file << n << " * " << c << ";\n";
     }
 
     file.close();
@@ -50,26 +50,28 @@ void PairProcessing::processPairs(const string& inputFilename, const string& out
     proverka2(inputFile, outputFile);
 
     string line;
-    getline(inputFile, line);
-    inputFile.close();
-
-    stringstream ss(line);
-    int num;
-    char c;
-    while (ss >> num)
+    while(getline(inputFile, line))
     {
-        ss.ignore();
-        ss.ignore();
-        ss >> c;
-        for (int i = 0; i < num; ++i)
-        {
-            outputFile << c;
-        }
-        char delim;
-        ss >> delim;
-        outputFile << endl; // Add delimiter between each string
-    }
+        //inputFile.close();
 
+        stringstream ss(line);
+        int num;
+        char c;
+        while (ss >> num)
+        {
+            ss.ignore();
+            ss.ignore();
+            ss >> c;
+            for (int i = 0; i < num; ++i)
+            {
+                outputFile << c;
+            }
+            char delim;
+            ss >> delim;
+            outputFile << endl; // Add delimiter between each string
+        }
+    }
+inputFile.close();
     outputFile.close();
     cout << "Processed pairs and written to " << outputFilename << endl;
 }
